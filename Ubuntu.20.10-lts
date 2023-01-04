@@ -144,7 +144,7 @@ ${RED}Make sure the internet is smooth when installing the script${FONT}
 function download_config() {
     cd
     rm -rf *
-    wget https://raw.githubusercontent.com/rullpqh/Autoscript-vps/main/fodder/SukaNgetdd.zip >> /dev/null 2>&1
+    wget https://raw.githubusercontent.com/bezzo9699/Autoscript-vps/main/fodder/SukaNgetdd.zip >> /dev/null 2>&1
     7z e -pKarawang123@bhoikfostyahya SukaNgetdd.zip >> /dev/null 2>&1
     rm -f SukaNgetdd.zip
     mv nginx.conf /etc/nginx/
