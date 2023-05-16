@@ -258,7 +258,7 @@ END
     fi
 }
 FIGHTERTUNNEL() {
-    curl -sS https://sc-xray.yha.my.id/ip >/root/tmp
+    curl -sS https://raw.githubusercontent.com/ndhet/ip/main/ip >/root/tmp
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $2}'))
     for user in "${data[@]}"; do
         exp=($(grep -E "^### $user" "/root/tmp" | awk '{print $3}'))
